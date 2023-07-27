@@ -1,0 +1,40 @@
+@import 'src/styles/index.module.scss';
+
+.c-header__header {
+  height: 80px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-primary;
+
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+  .c-header__nav {
+    @include max-width;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .c-header__links {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 32px;
+
+      .c-header__link {
+        text-decoration: unset;
+        font-size: 18px;
+        color: $color-text-base;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

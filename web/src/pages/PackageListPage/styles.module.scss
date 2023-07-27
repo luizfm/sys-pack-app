@@ -1,0 +1,59 @@
+@import 'src/styles/index.module.scss';
+
+.c-package-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 32px;
+  overflow-y: auto;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-top: 300px;
+  }
+
+  &__title {
+    margin-top: 32px;
+  }
+
+  &__table {
+    border: 1px solid $color-secondary;
+
+    &__header {
+      &__cell:not(:last-of-type) {
+        border-right: 1px solid $color-secondary;
+      }
+
+      &__cell {
+        padding: 10px;
+        border-bottom: 1px solid $color-secondary;
+        border-collapse: collapse;
+      }
+    }
+
+
+  }
+
+}
+
+.c-package-list__table__body {
+
+  &__cell:not(:last-of-type) {
+    border-right: 1px solid $color-secondary;
+  }
+
+  &__cell {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid $color-secondary;
+  }
+
+  &__image {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+}

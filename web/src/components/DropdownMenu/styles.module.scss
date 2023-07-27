@@ -1,0 +1,24 @@
+@import 'src/styles/index.module.scss';
+
+.c-dropdown-menu__button {
+  all: unset;
+  padding: 6px;
+  border: 1px solid $color-secondary;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.6s ease;
+  background-color: $color-primary;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
+
+.c-dropdown-menu__content {
+  width: 200px;
+  border-radius: 8px;
+  background-color: red;
+}

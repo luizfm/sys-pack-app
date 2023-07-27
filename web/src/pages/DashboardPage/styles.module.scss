@@ -1,0 +1,19 @@
+@import 'src/styles/index.module.scss';
+
+.c-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  @include max-width;
+  margin: 0 auto;
+
+  .c-dashboard__title {
+    margin: 32px 0 16px;
+  }
+
+  .c-dashboard__description {
+    margin-bottom: 16px;
+  }
+}

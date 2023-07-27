@@ -1,0 +1,12 @@
+@import 'src/styles/index.module.scss';
+
+.c-app-layout {
+  background-color: $color-background;
+  height: 100vh;
+
+}
+
+.c-app-layout__main {
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+}
