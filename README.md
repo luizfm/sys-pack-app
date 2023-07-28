@@ -25,7 +25,7 @@ SESSION_SECRET=w2n6UucPiV4XYDrnzLm4hDhXkgbHJ2cCe9vnmZrCdkLaqqk8DSx3SAJrkrCF39Fk
 
 ### Additional Information
 
-- The AWS approach selected to upload the files here was the `pre-signed` URL. <br />.
+- The AWS approach selected to upload the files here was the `pre-signed` URL. <br />
 - A third party library for upload called `react-dropdzone-upload` was used to deal with the drag and drop option, but it is also possible to create a native one using a few properties availables on native HTML tags like `onDrop` and `onDragOver`.  <br />
 - The additional features from Redwoodjs like testing and storybook were not used, since the challenge didn't require it.  <br />
 - The AWS credentials to access the console on AWS will not be provided. If there is need to check if the files were really uploaded, feel free to contact the developer to check with him.  <br />
