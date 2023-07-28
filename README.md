@@ -8,7 +8,7 @@ This application was developed using a few features functionalities from Redwood
 - [ ] execute `yarn` command on the root folder. If you don't have `yarn` command available, you might need to install its pacakge via NPM with the command `npm install --global yarn`. Npm is a package manager available when you install `Node` in your machine. Be sure that you have node install by running `node -v`. If you don't have it installed, download the LTS version from https://nodejs.org/en.
 - [ ] Once the step above is finished, it's time to run the migrations. Migrations contains the history of the database management. run it using the command `yarn rw prisma migrate dev`.
 - [ ] Now, you should set up the env variables for this project. Since it was developed using AWS S3 bucket to keep the uploaded files, and the bucket required a few configurations to make it easy to receive the uploaded files from an outside application, its highly recommended to use the ones provided on the topic `Evn variables` below, avoiding additional setup steps.
-- [ ] Finally, run the project using the command `yarn rw run dev`.
+- [ ] Finally, run the project using the command `yarn rw dev`.
 
 ### Env variables
 
